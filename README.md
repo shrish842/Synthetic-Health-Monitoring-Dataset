@@ -1,64 +1,35 @@
-# Synthetic-Health-Monitoring-Dataset
+# Synthetic Health Monitoring Dataset
 
-📊 Dataset Overview
+This dataset contains synthetic health metrics for 100 patients over a year, collected at 1-minute intervals. It includes heart rate, blood pressure, SpO2, respiration rate, body temperature, blood glucose, activity level, and sleep patterns, with introduced anomalies for realistic simulation.
 
-A comprehensive synthetic health monitoring dataset featuring time-series health metrics for 100 patients, collected at 10-minute intervals. Ideal for healthcare-related machine learning applications such as anomaly detection, patient monitoring, and predictive analytics. Includes realistic anomalies to mimic real-world scenarios
-
+---
 🔗 View and Download the Dataset on Kaggle
 
 📂 Dataset Structure
 
 The dataset is provided in CSV format and contains the following key features:
 
-Features
+## Features
 
-Patient Information:
+- **Patient ID**: Unique identifier for each patient.
+- **Timestamp**: Date and time of each observation.
+- **Age**: Age of the patient in years.
+- **Gender**: Gender of the patient (Male/Female).
+- **Weight**: Weight of the patient in kilograms.
+- **Height**: Height of the patient in centimeters.
+- **BMI**: Body Mass Index of the patient.
+- **Heart Rate**: Heart rate in beats per minute (bpm).
+- **BP Systolic**: Systolic blood pressure in mmHg.
+- **BP Diastolic**: Diastolic blood pressure in mmHg.
+- **SpO2**: Oxygen saturation level in percentage (%).
+- **Respiration Rate**: Respiration rate in breaths per minute.
+- **Body Temperature**: Body temperature in degrees Fahrenheit (°F).
+- **Blood Glucose**: Blood glucose level in mg/dL.
+- **Activity Level**: Steps taken per 10 minutes (simulated using a Poisson distribution).
+- **Sleep Pattern**: Sleep stage (0: Awake, 1: Light Sleep, 2: Deep Sleep).
+- **Anomaly**: Binary indicator for anomalies (0: Normal, 1: Anomaly).
 
-Patient ID: Unique identifier for each patient.
-
-Age, Gender, Weight, Height, BMI: Demographic and physical information.
-
-Health Metrics:
-
-Heart Rate: Normal range of 60-100 bpm with anomalies.
-
-BP Systolic, BP Diastolic: Blood pressure metrics.
-
-SpO2: Blood oxygen levels (normal: 95-100%).
-
-Respiration Rate: Breaths per minute.
-
-Body Temperature: Normal range around 37°C.
-
-Blood Glucose: Synthetic blood glucose levels.
-
-Lifestyle Factors:
-
-Activity Level: Simulated physical activity levels.
-
-Sleep Pattern: Approximate sleep patterns.
-
-Anomalies:
-
-Sudden spikes, gradual changes, periodic patterns, and sensor errors.
-
-Missing data points to simulate real-world data collection issues.
-
-🚀 Intended Use
-
-This dataset is designed for machine learning tasks in healthcare, such as:
-
-Anomaly detection in health metrics.
-
-Predictive analytics for patient monitoring.
-
-Research and educational purposes.
-
-⚠ Note: This is synthetic data and should not be used for clinical decision-making.
-
-📈 Example Use Case
-
-If you are working on anomaly detection, you can use this dataset to train models to detect unusual patterns in heart rate or blood pressure readings. The anomalies included in the dataset provide a rich source for testing model robustness.
+---
 
 🛠️ How to Use
 
@@ -73,21 +44,53 @@ data.head()
 
 Explore the data, handle missing values, and visualize trends to identify anomalies.
 
-💡 Potential Applications
+📈 Example Use Case
 
-Healthcare Analytics: Monitor patient vitals and flag anomalies.
+Anomalies such as sudden spikes, gradual changes, periodic patterns, and sensor errors have been introduced to mimic real-world scenarios. Missing data is also included to simulate real-world data collection issues.
 
-Research Projects: Ideal for academic studies on synthetic healthcare datasets.
+---
 
-Model Training: Build machine learning models for time-series predictions.
+🚀 Intended Use
 
-🔧 Tools and Techniques Suggested
+This dataset is intended for use in healthcare-related machine learning tasks, such as:
+- **Anomaly Detection**: Train models to detect anomalies in health metrics.
+- **Predictive Modeling**: Predict future health events based on historical data.
+- **Data Visualization**: Create visualizations to explore trends and patterns in the data.
 
-Data Visualization: Matplotlib, Seaborn
+⚠ Note: This is synthetic data and should not be used for clinical decision-making.
+---
 
-Time Series Analysis: Statsmodels, Prophet
 
-Machine Learning: Scikit-learn, TensorFlow, PyTorch
+
+## Acknowledgements
+
+This dataset was inspired by real-world health monitoring systems and created using Python libraries such as NumPy, Pandas, and Matplotlib.
+
+---
+
+## Column Descriptions
+
+| Column Name         | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Patient ID          | Unique identifier for each patient.                                         |
+| Timestamp           | Date and time of each observation.                                          |
+| Age                 | Age of the patient in years.                                                |
+| Gender              | Gender of the patient (Male/Female).                                        |
+| Weight              | Weight of the patient in kilograms.                                         |
+| Height              | Height of the patient in centimeters.                                       |
+| BMI                 | Body Mass Index of the patient.                                             |
+| Heart Rate          | Heart rate in beats per minute (bpm).                                       |
+| BP Systolic         | Systolic blood pressure in mmHg.                                            |
+| BP Diastolic        | Diastolic blood pressure in mmHg.                                           |
+| SpO2                | Oxygen saturation level in percentage (%).                                  |
+| Respiration Rate    | Respiration rate in breaths per minute.                                     |
+| Body Temperature    | Body temperature in degrees Fahrenheit (°F).                                |
+| Blood Glucose       | Blood glucose level in mg/dL.                                               |
+| Activity Level      | Steps taken per 10 minutes (simulated using a Poisson distribution).        |
+| Sleep Pattern       | Sleep stage (0: Awake, 1: Light Sleep, 2: Deep Sleep).                      |
+| Anomaly             | Binary indicator for anomalies (0: Normal, 1: Anomaly).                     |
+
+---
 
 🤝 Contributions
 
@@ -100,3 +103,8 @@ This dataset is provided under the CC0 (Public Domain Dedication). Feel free to 
 📧 Contact
 
 For any questions or suggestions, please contact [Shrish Agrawal] at [@agrawalshrish321@gmail.com].
+
+
+
+
+
