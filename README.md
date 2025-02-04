@@ -65,10 +65,11 @@ If you are working on anomaly detection, you can use this dataset to train model
 Download the Dataset: https://www.kaggle.com/datasets/shrishagrawal/synthetic-health-dataanomaly-100patients10-min
 
 Load the dataset into your preferred environment using pandas:
-
+```python
 import pandas as pd
 data = pd.read_csv("synthetic_health_timeseries.csv")
 data.head()
+```
 
 Explore the data, handle missing values, and visualize trends to identify anomalies.
 
