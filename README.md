@@ -95,8 +95,8 @@ Contributions to enhance the dataset or provide better anomaly detection models 
 
 📜 License
 
-This dataset is provided under the MIT License. Feel free to use it responsibly.
+This dataset is provided under the CC0 (Public Domain Dedication). Feel free to use it responsibly.
 
 📧 Contact
 
-For any questions or suggestions, please contact [Your Name] at [Your Email].
+For any questions or suggestions, please contact [Shrish Agrawal] at [@agrawalshrish321@gmail.com].
