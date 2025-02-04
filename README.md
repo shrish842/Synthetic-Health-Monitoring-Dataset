@@ -1,8 +1,8 @@
 # Synthetic-Health-Monitoring-Dataset
-A comprehensive synthetic health monitoring dataset featuring time-series health metrics for 100 patients, collected at 10-minute intervals. Ideal for healthcare-related machine learning applications such as anomaly detection, patient monitoring, and predictive analytics. Includes realistic anomalies to mimic real-world scenarios
+
 📊 Dataset Overview
 
-This dataset contains synthetic health metrics for 100 patients over a year, collected at 10-minute intervals. It simulates real-world healthcare scenarios by incorporating various health parameters and includes anomalies to mimic realistic patient monitoring conditions.
+A comprehensive synthetic health monitoring dataset featuring time-series health metrics for 100 patients, collected at 10-minute intervals. Ideal for healthcare-related machine learning applications such as anomaly detection, patient monitoring, and predictive analytics. Includes realistic anomalies to mimic real-world scenarios
 
 🔗 View and Download the Dataset on Kaggle
 
@@ -62,7 +62,7 @@ If you are working on anomaly detection, you can use this dataset to train model
 
 🛠️ How to Use
 
-Download the Dataset: Kaggle Dataset Link
+Download the Dataset: https://www.kaggle.com/datasets/shrishagrawal/synthetic-health-dataanomaly-100patients10-min
 
 Load the dataset into your preferred environment using pandas:
 
